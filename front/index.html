@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование авиабилетов - Курсовая работа</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-plane"></i> Система бронирования авиабилетов</h1>
+            <p id="flight-info">Курсовая работа Чумакова О.А.</p>
+            <div class="status">
+                <span id="server-status">❌ Сервер не подключен</span>
+                <span id="db-status">❌ База данных не подключена</span>
+            </div>
+        </header>
+
+        <div class="main-content">
+            <!-- Левая колонка: карта самолета -->
+            <div class="airplane-section">
+                <div id="loading">
+                    <i class="fas fa-spinner fa-spin fa-3x"></i>
+                    <p>Загрузка системы бронирования...</p>
+                </div>
+                
+                <div class="airplane-map" id="airplane-map" style="display: none;">
+                    <div class="flight-header">
+                        <h3><i class="fas fa-info-circle"></i> Информация о рейсе</h3>
+                        <div id="flight-details">Загрузка...</div>
+                    </div>
+                    
+                    <!-- Кабина -->
+                    <div class="cockpit">
+                        <i class="fas fa-cog"></i> Кабина пилотов
+                    </div>
+                    
+                    <!-- Бизнес класс -->
+                    <div class="section business">
+                        <h3><i class="fas fa-crown"></i> Бизнес класс</h3>
+                        <div class="seats-grid" id="business-seats"></div>
+                    </div>
+                    
+                    <!-- Разделитель -->
+                    <div class="divider">
+                        <i class="fas fa-arrows-alt-h"></i> Разделение классов
+                    </div>
+                    
+                    <!-- Эконом класс -->
+                    <div class="section economy">
+                        <h3><i class="fas fa-users"></i> Эконом класс</h3>
+                        <div class="seats-grid" id="economy-seats"></div>
+                    </div>
+                    
+                    <!-- Хвост -->
+                    <div class="tail">
+                        <i class="fas fa-fan"></i> Двигатели
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Правая колонка: информация и управление -->
+            <div class="info-section">
+                <div class="card">
+                    <h3><i class="fas fa-info-circle"></i> Информация о месте</h3>
+                    <div class="info-item">
+                        <span><i class="fas fa-chair"></i> Место:</span>
+                        <strong id="selected-seat">Не выбрано</strong>
+                    </div>
+                    <div class="info-item">
+                        <span><i class="fas fa-star"></i> Класс:</span>
+                        <span id="seat-class">-</span>
+                    </div>
+                    <div class="info-item">
+                        <span><i class="fas fa-ruble-sign"></i> Цена:</span>
+                        <span id="seat-price">- ₽</span>
+                    </div>
+                    <div class="info-item">
+                        <span><i class="fas fa-flag"></i> Статус:</span>
+                        <span id="seat-status">-</span>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3><i class="fas fa-cogs"></i> Управление</h3>
+                    <button id="btn-book" class="btn-success" disabled>
+                        <i class="fas fa-ticket-alt"></i> Забронировать место
+                    </button>
+                    <button id="btn-reset" class="btn-secondary">
+                        <i class="fas fa-redo"></i> Сбросить выбор
+                    </button>
+                    <button id="btn-demo" class="btn-info">
+                        <i class="fas fa-database"></i> Создать демо-данные
+                    </button>
+                </div>
+                
+                <div class="card">
+                    <h3><i class="fas fa-chart-bar"></i> Статистика</h3>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <i class="fas fa-plane"></i>
+                            <span>Рейсы: <span id="stat-flights">0</span></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <span>Пассажиры: <span id="stat-passengers">0</span></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-ticket-alt"></i>
+                            <span>Брони: <span id="stat-bookings">0</span></span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-chair"></i>
+                            <span>Свободных мест: <span id="stat-seats">0</span></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card legend">
+                    <h3><i class="fas fa-key"></i> Обозначения</h3>
+                    <div class="legend-item">
+                        <div class="seat-example free"></div>
+                        <span>Свободно</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="seat-example selected"></div>
+                        <span>Выбрано</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="seat-example booked"></div>
+                        <span>Занято</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="seat-example business"></div>
+                        <span>Бизнес класс</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Курсовая работа: "Разработка базы данных системы бронирования авиабилетов"</p>
+            <p>Студент: Чумаков Олег Александрович | Специальность: 38.03.05 Цифровые инновации в бизнесе</p>
+            <p>MySQL Workbench + Node.js + HTML/CSS/JavaScript</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
