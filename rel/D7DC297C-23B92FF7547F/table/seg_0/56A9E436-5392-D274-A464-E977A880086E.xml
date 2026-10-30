@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56A9E436-5392-D274-A464-E977A880086E" name="document_type">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>61598F01-1393-7695-DF79-5C14AA91C600</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_document_type" id="F519B99B-9C22-F7FC-AAA4-AD55F950E4EA">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>1328CAC9-1928-C9A0-A471-33F9CD03DC26</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_type_cod" id="C15AFD57-3F7B-A4FC-21DE-78AE17B76080">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>2B3F645B-5803-8FA5-6FB0-ACAD84A5C85E</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="doc_type_name" id="0D6D2136-FF58-C74D-5539-28BEB3FD9E66">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>8A85A031-75FC-885A-C949-F559D868AE2A</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_code" id="41CF720D-02EA-80DB-ABDB-33A6C97711A2">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>32621BD8-A50D-80A2-1DE8-2F759F774297</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B194DDF-99B6-B70D-8B17-0F32CD65C6DC" name="document_type_PK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>71BFA210-3899-0501-48E8-CC781110B8A2</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F519B99B-9C22-F7FC-AAA4-AD55F950E4EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="33DA93D8-5513-E3FC-10EF-EA01B5AEA5A8" mainViewID="A29184BE-6427-0BF4-FA65-E93D14A7BBDC">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 06:58:03 UTC</createdTime>
+<ownerDesignName>курсовой проект</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

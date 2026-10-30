@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="811DF098-17FC-AA7C-59C3-0233911F9BFB" name="passengers">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>2AC9807A-6520-8CC1-EE78-7C8FAE1F8E01</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_passenger" id="A3A55362-D4EE-438F-94B6-3B5777087494">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>AE0D421C-268C-41C1-74E8-C4392BD9203D</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fio_passenger" id="955BBC42-EC68-C767-24D6-6D46BBC1174C">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>90189EB9-0D52-232A-CBD5-2C70BF36800E</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passport_number" id="49790322-2020-A1DF-D316-85AA00191E6F">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>0551DB1F-760A-B192-FB5C-FD93B2A68C0E</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_birth" id="FB38186C-3088-26B3-F03E-9619995990EA">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>FD5FA8CF-7F2E-B31F-7513-C24A1B2F89B9</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email_passenger" id="0D1E43A0-4841-6086-EE12-E763B3418C88">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>F3928447-7A5C-7D0D-61C7-53CB65693EE8</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_of_passenger" id="8BEA92ED-3C5C-CE48-4E87-F9A3C4497640">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>EF352267-0E06-48E8-BF04-3E8D98572D32</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="document_type_id_document_type" id="A71173F2-A1B6-9F85-B78E-6FD49F1545F5">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>52463BB5-7C6D-F5FC-89B3-93A87B8471AA</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0153DE72-5C10-5790-46F5-55068638FE17" referredColumn="F519B99B-9C22-F7FC-AAA4-AD55F950E4EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AFBF3FC-CD0E-4220-5D63-E2426559093C" name="passengers_PK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>4201FE82-D441-48EB-1157-2A123C7A3408</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3A55362-D4EE-438F-94B6-3B5777087494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55AB9270-AD41-60B2-D18C-1F6CAD7D6964" name="passengers_document_type_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>55F66387-1821-3FBA-8513-BFB8A2E04DBC</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A71173F2-A1B6-9F85-B78E-6FD49F1545F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

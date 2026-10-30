@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFABCEC3-363A-B8AB-2355-4D8260471DED" name="seats">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>2260FE50-5461-F1F7-EA25-F2DFD44F099E</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seat" id="C3269860-D927-60AE-182C-B9C94DE2FAE7">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>0405B160-72B9-B0BF-D93C-553593A4F0AB</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat_number" id="FB5BD4E5-F6CC-4F5A-3D3D-02A9C6222C55">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>B5FB63F5-4C08-E922-A1C4-6DB9BB2ADD38</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat_row" id="D35335D0-6A76-8388-6CE6-C8A50F6E02CE">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>08F5E15F-F905-E76E-D63F-6087AF626D3C</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat_letter" id="8215DCDB-738D-EC22-A6D0-7E5389260ED3">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>B3FBD6E4-6F5C-710F-F83F-6C301D39F4D8</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat_class" id="1BF722AC-A14E-6147-DDAA-630665E47D74">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>5944D5D1-63C1-9F2B-2ECC-B0A9AEADA364</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat_type" id="2DC3863D-91B8-F046-41E5-933AE8F15142">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>27AC929E-0EDF-D970-9760-2419973845DC</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat_maps_id_maps" id="E4196181-6D3B-9833-A8FC-F5AE57D9D963">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>C3E9729C-5B38-7A97-A56A-9CBCF6B28545</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="080C79A0-5C7A-7960-C4AF-48630F5325DD" referredColumn="83D3AB54-729D-42C4-9B44-5504030A248C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C325897-61DA-CF55-E2B8-C3ABEECDDC22" name="seats_PK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>8C2A6366-636B-9F97-DEA1-ECB3BBAF27CC</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3269860-D927-60AE-182C-B9C94DE2FAE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26506F7C-351B-121E-CB45-0692ABA27D0C" name="seats_seat_maps_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>EA6FA94D-694E-C8B0-59DD-D8BE32FBAC59</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4196181-6D3B-9833-A8FC-F5AE57D9D963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B24DAF0-3237-5F22-3DB6-80AC32C247A2" name="airports">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>BBD52DA7-E78E-A4F3-EE48-C16F3B0019A0</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_airport" id="B5171B23-3B2D-DE35-B6B5-A3E6EF320087">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>304CD2C2-9B80-D88A-0D75-673517827329</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iata_code" id="EA84942B-3515-4EF1-AF7A-6465B3D58F90">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>EAD0E398-D7EB-700A-12FA-BFB02AFBECB8</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="53539CA4-7513-BE32-3695-8F3C08F7F4D8">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>47EF70D9-D3F8-8B5E-639B-0FA89CE682C5</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="47D2ED96-763B-1417-CA64-9F6BAD0C9270">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>7C87AC73-CDAC-3ADE-7189-62F3A6DFE983</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="FC392AB7-6E78-88B1-B5C8-16099F0E7A62">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>05941A1C-D8EE-881B-78F0-D1D42371D64B</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B1B9ACAF-561B-4B2F-D73B-ADDDA2254550" name="airports_PK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>A15409BD-9143-4AD8-CD1F-0B5ED0DC439F</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5171B23-3B2D-DE35-B6B5-A3E6EF320087"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

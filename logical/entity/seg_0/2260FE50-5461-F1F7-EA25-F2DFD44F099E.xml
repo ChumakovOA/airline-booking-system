@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2260FE50-5461-F1F7-EA25-F2DFD44F099E" name="seats">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 07:00:31 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_seat" id="0405B160-72B9-B0BF-D93C-553593A4F0AB">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 12:37:33 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seat_number" id="B5FB63F5-4C08-E922-A1C4-6DB9BB2ADD38">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 12:37:33 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seat_row" id="08F5E15F-F905-E76E-D63F-6087AF626D3C">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 12:37:33 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seat_letter" id="B3FBD6E4-6F5C-710F-F83F-6C301D39F4D8">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 12:37:33 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seat_class" id="5944D5D1-63C1-9F2B-2ECC-B0A9AEADA364">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 12:37:34 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seat_type" id="27AC929E-0EDF-D970-9760-2419973845DC">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 12:39:53 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_maps" id="C3E9729C-5B38-7A97-A56A-9CBCF6B28545">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 13:45:24 UTC</createdTime>
+<generatorID>EA6FA94D-694E-C8B0-59DD-D8BE32FBAC59</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<referedAttribute>F8D69774-AB85-3B08-AC85-C661100E107D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8C2A6366-636B-9F97-DEA1-ECB3BBAF27CC" name="seats PK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 12:37:44 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0405B160-72B9-B0BF-D93C-553593A4F0AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

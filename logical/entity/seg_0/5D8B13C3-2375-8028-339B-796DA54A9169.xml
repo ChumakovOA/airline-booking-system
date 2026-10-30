@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D8B13C3-2375-8028-339B-796DA54A9169" name="flights">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 06:58:22 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_flight" id="69E28FF3-265D-28AA-551B-33817A87EC67">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 07:07:36 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="number_of_flight" id="01D6DA7F-EF08-6339-0D8A-92AE100680BC">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 07:08:02 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_time_of_departure" id="A3B1A8D4-FE9E-ACEB-BF10-F35AF3639F21">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 07:09:40 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_time_of_arrival" id="35BB2FB2-C239-8242-56DB-6D31B55F9451">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 07:10:19 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_of_flights" id="5DF0D64B-6E62-D95F-E5E7-AAF3A15DA349">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 07:11:16 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="departure_airport_id" id="73BD0954-690F-7B27-4947-AFA93B5199C6">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 16:53:18 UTC</createdTime>
+<generatorID>6D9A12E7-5B57-1DA5-38DE-410E69D00972</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<referedAttribute>304CD2C2-9B80-D88A-0D75-673517827329</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="arrival_airport_id" id="B54923FC-4404-7EF4-5C60-F315B19D0737">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 16:53:35 UTC</createdTime>
+<generatorID>7EBF2C31-015F-C6FD-90F0-06B99167C8F5</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<referedAttribute>304CD2C2-9B80-D88A-0D75-673517827329</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_aircraft " id="C79D54AF-2924-D1CA-613D-5BE6EC7FAA28">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 16:45:31 UTC</createdTime>
+<generatorID>8E1B64AE-2332-707D-4F0E-8ECCD8F21F23</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<referedAttribute>BE588837-BD4B-FBEA-6370-DC2DE551EEB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D45C84CD-BA63-738D-1E75-C3B60906DEA8" name="flights PK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 07:07:46 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>69E28FF3-265D-28AA-551B-33817A87EC67</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

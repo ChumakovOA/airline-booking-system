@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEDAE6E4-E9A9-7F3B-5A47-249CBD356AAA" name="seats_on_flight">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>BC11D2C5-9A20-5216-BEF3-450DDAF8139D</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seat_on_flight" id="7FCAF3F7-70A9-6FBB-1F6C-926764BC919F">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>19E10554-10F1-B9ED-1490-204DBC35004E</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_available" id="2DBD6B27-26B7-98A4-E10A-7D52E3235D68">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>005C7EB7-29AE-4293-2D5A-DEB4E9C88B7A</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="current_price" id="AEA13520-DFD5-E657-DAE8-126C51731749">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>D4D2A6F0-B751-1505-8B16-DEA713583E3D</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seat_status" id="DF0FC1FE-A3A7-598C-3E61-5E5C99F3D6C0">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>B84982F7-2BE6-15B1-FE77-4BE177391FA4</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flights_id_flight" id="668BF8ED-E27C-18A7-5E80-16EE7135663A">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>51C1C876-B7D2-7262-E550-58CDE4657771</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25ACF391-2A8A-0C71-D517-2E8C5AC0CF8A" referredColumn="C487CFCD-D270-8D1A-FDDF-9FFB5EC89FDD"/>
+</associations>
+</Column>
+<Column name="seats_id_seat" id="A3346700-47AB-AC8B-5245-7639DF365327">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>5614B23E-BF16-7CD0-9527-F4A2ED861D25</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E01B3F35-BF60-FC44-A0E4-873083D2771E" referredColumn="C3269860-D927-60AE-182C-B9C94DE2FAE7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="384E39D0-80E8-E463-8FA4-F90A55F34AA3" name="seats_on_flight_PK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>C494E814-AA50-633D-2EA4-4B9858A2B811</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FCAF3F7-70A9-6FBB-1F6C-926764BC919F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5680258A-8C9C-8F7D-56EF-0EE19EEA1B7B" name="seats_on_flight_flights_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>43123FB8-2D0F-7FFF-639A-5E7498C4AC9F</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="668BF8ED-E27C-18A7-5E80-16EE7135663A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF942825-1389-5A05-DDA6-F8125F0FF411" name="seats_on_flight_seats_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>EC3A4C83-6279-AC8E-474A-7B66207BCD0E</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3346700-47AB-AC8B-5245-7639DF365327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

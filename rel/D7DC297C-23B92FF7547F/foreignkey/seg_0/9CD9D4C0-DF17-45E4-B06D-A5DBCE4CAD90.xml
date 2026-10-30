@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9CD9D4C0-DF17-45E4-B06D-A5DBCE4CAD90" containerWithKeyObject="FFFC68E1-0E04-020E-E1BF-2F2E42A553A5" localFKIndex="195525BB-9C9C-912F-E9CC-1717FCFEB937" name="bookings_ticket_type_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>AC6E2949-900A-E46C-9867-F55FEC4EAD7A</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<referredTableLongName>ticket_type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>879BC61F-194F-C5E2-3ABB-8DDCDEA8D430</referredTableID>
+<keyObject>8C933F6B-97AD-E3D9-9ED3-0AEFCE8512F7</keyObject>
+<referredKeyID>8C933F6B-97AD-E3D9-9ED3-0AEFCE8512F7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_ticket_type</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

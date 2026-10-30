@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAB447FB-FBD2-919B-197E-2BAAFAA5F151" containerWithKeyObject="73442793-DC34-52AB-AE6D-F87079707404" localFKIndex="907120DF-EA68-4DA1-820B-AA0B84B8B3CD" name="payments_bookings_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>07211392-1B6A-1B9B-08C7-5628FABC2930</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<referredTableLongName>bookings</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FFFC68E1-0E04-020E-E1BF-2F2E42A553A5</referredTableID>
+<keyObject>3D8451D7-2A37-820F-B377-85EF4913B87B</keyObject>
+<referredKeyID>3D8451D7-2A37-820F-B377-85EF4913B87B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_booking</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

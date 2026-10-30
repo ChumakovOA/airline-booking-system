@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8B30525F-C919-4B36-B78A-641978F6FED3" containerWithKeyObject="FFFC68E1-0E04-020E-E1BF-2F2E42A553A5" localFKIndex="BA8B664A-E744-6F31-8494-0FD2DF378BB2" name="bookings_seats_on_flight_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>61FAF18E-D8E3-4DE7-1BAD-EAB0D1BDC473</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<referredTableLongName>seats_on_flight</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CEDAE6E4-E9A9-7F3B-5A47-249CBD356AAA</referredTableID>
+<keyObject>384E39D0-80E8-E463-8FA4-F90A55F34AA3</keyObject>
+<referredKeyID>384E39D0-80E8-E463-8FA4-F90A55F34AA3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_seat_on_flight</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

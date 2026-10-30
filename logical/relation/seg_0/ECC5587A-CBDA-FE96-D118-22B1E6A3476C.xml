@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_15" directorySegmentName="seg_0" id="ECC5587A-CBDA-FE96-D118-22B1E6A3476C">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-28 13:44:14 UTC</createdTime>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<engineerTo>
+<item key="D7DC297C-A64E-2390-08C3-23B92FF7547F" value="true"/>
+</engineerTo>
+<sourcePk>42E54E90-6239-0492-339E-6715846CA5B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49B273E6-6E4E-C79D-C3B7-90E07F23265A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C902AD75-6DD4-7379-1249-648B1C69C66F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

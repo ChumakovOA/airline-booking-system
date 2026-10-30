@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47E19E57-583B-C121-4595-08FF45DAD57A" name="flights">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>5D8B13C3-2375-8028-339B-796DA54A9169</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_flight" id="C487CFCD-D270-8D1A-FDDF-9FFB5EC89FDD">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>69E28FF3-265D-28AA-551B-33817A87EC67</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="number_of_flight" id="39C78112-4047-3BBB-7E87-DEB9A00FCE86">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>01D6DA7F-EF08-6339-0D8A-92AE100680BC</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_time_of_departure" id="E81D0C55-674E-3FB4-8B93-16A6ADBB9270">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>A3B1A8D4-FE9E-ACEB-BF10-F35AF3639F21</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_time_of_arrival" id="2DD87961-4269-AFE0-9149-DB1EF6B50172">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>35BB2FB2-C239-8242-56DB-6D31B55F9451</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_of_flights" id="B2C08A0B-0345-4CA6-6196-79520DF625CF">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>5DF0D64B-6E62-D95F-E5E7-AAF3A15DA349</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="airports_id_airport2" id="3F0B45FC-3156-C1B5-EDC5-3245A43A03FD">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>73BD0954-690F-7B27-4947-AFA93B5199C6</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="03993399-EE6D-0ECE-24F1-09D5CE225AB7" referredColumn="B5171B23-3B2D-DE35-B6B5-A3E6EF320087"/>
+</associations>
+</Column>
+<Column name="airports_id_airport" id="9876F4A0-1DAE-B1AA-18A3-6F0CCB9F4392">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>B54923FC-4404-7EF4-5C60-F315B19D0737</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37A62EB2-28FC-EEFE-3435-83FF5E895DFC" referredColumn="B5171B23-3B2D-DE35-B6B5-A3E6EF320087"/>
+</associations>
+</Column>
+<Column name="aircrafts_id_aircraft" id="949BBFBA-FE6D-2251-55BD-14E6B1003DB7">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>C79D54AF-2924-D1CA-613D-5BE6EC7FAA28</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="32300E24-E554-360E-9A06-A83C08FACC3D" referredColumn="B52DF1ED-9B82-D81B-E188-FF02F61FF892"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F49CF551-D3C0-EDD3-B664-82B83E981F3A" name="flights_PK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>D45C84CD-BA63-738D-1E75-C3B60906DEA8</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C487CFCD-D270-8D1A-FDDF-9FFB5EC89FDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="66C43CE3-13F4-41DE-C406-E20B6367AA20" name="flights_airports_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>7EBF2C31-015F-C6FD-90F0-06B99167C8F5</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9876F4A0-1DAE-B1AA-18A3-6F0CCB9F4392"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9696245C-8C1C-7451-32B7-45BFFCEA16DB" name="flights_airports_FKv2">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>6D9A12E7-5B57-1DA5-38DE-410E69D00972</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F0B45FC-3156-C1B5-EDC5-3245A43A03FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B54A7153-8C68-2867-B53F-9FAC43B7922D" name="flights_aircrafts_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>8E1B64AE-2332-707D-4F0E-8ECCD8F21F23</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="949BBFBA-FE6D-2251-55BD-14E6B1003DB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

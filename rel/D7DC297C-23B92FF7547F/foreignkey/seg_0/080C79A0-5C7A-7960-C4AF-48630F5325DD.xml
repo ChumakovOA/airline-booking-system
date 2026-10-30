@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="080C79A0-5C7A-7960-C4AF-48630F5325DD" containerWithKeyObject="BFABCEC3-363A-B8AB-2355-4D8260471DED" localFKIndex="26506F7C-351B-121E-CB45-0692ABA27D0C" name="seats_seat_maps_FK">
+<createdBy>xomol</createdBy>
+<createdTime>2025-12-01 17:31:45 UTC</createdTime>
+<generatorID>EA6FA94D-694E-C8B0-59DD-D8BE32FBAC59</generatorID>
+<ownerDesignName>курсовой проет2 </ownerDesignName>
+<referredTableLongName>seat_maps</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8720F7D4-ACDB-D2D9-B3F4-F407B2E8C2DE</referredTableID>
+<keyObject>C26BD58A-944E-77AC-5F6E-05E17F72216E</keyObject>
+<referredKeyID>C26BD58A-944E-77AC-5F6E-05E17F72216E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_maps</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
