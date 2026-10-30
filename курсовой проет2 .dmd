@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="курсовой проет2 " id="9B75EB02-D6E1-6556-B6F6-9A50DD9F685D" version="3.5">
+<createdBy>xomol</createdBy>
+<createdTime>2025-11-27 06:58:03 UTC</createdTime>
+<ownerDesignName>курсовой проект</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9B75EB02-D6E1-6556-B6F6-9A50DD9F685D</designId>
+</OSDM_Design>
